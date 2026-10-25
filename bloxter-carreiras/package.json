@@ -1,0 +1,16 @@
+{
+  "name": "bloxter-carreiras",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bloxter Carreiras - inscrições para a equipe da Bloxter",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node test/run.js",
+    "criar-usuario": "node scripts/criar-usuario.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
